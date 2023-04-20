@@ -27,8 +27,6 @@ function makeGallery(items) {
     ).join('');
 }
 
-
-
 function onEscPress(evt, instance) {
     if (!instance.visible()) { 
         return;
